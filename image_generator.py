@@ -16,7 +16,7 @@ import controlnet_launcher as cn
 # logging.basicConfig(level=logging.ERROR)
 
 # 初始模型目录
-model_dir = './models/cosmic-babes'
+model_dir = './models/cosmic-babes'    #将cosmic-babes修改为自己下载的model名称
 
 # 检查模型目录是否存在且可读
 if not os.path.exists(model_dir):
