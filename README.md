@@ -18,7 +18,7 @@
 * 确保安装到`D:\`盘。`git clone https://github.com/aflyrt/maidao.git "D:\"`（否则需要修改程序才能正常使用）。
 * 创建虚拟环境并安装依赖包。
 ```
-cd D:\Mcdjourney
+cd D:\maidao
 conda create -name Mcdjourney python=3.10
 conda activate Mcdjourney
 pip install -r requirements.txt
