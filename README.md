@@ -25,6 +25,7 @@ pip install -r requirements.txt
 ```
 * 下载必要的模型。运行`models`和`MagicPrompt-Stable-Diffusion`文件夹中的`snapshot_download.ipynb`下载必要的模型。
 ## 使用
+打开powershell或cmd，确保在`\Mcdjourney`目录下，启动`main.py`，`python main.py`，等待加载完成出现`/prompt`提示符即可使用。
 ### 1. 基本操作
 Mcdjourney支持/prompt（提示词）和/CN（ControlNet）两种模式：
 * 默认使用/prompt模式，在prompt模式下输入 `PROMPT --style STYLE` 进行文生图，style参数为非必须，如不输入默认为cinematic风格。
